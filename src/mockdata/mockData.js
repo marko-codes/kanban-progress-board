@@ -8,8 +8,8 @@ const mockData = [
         tasks: [
             {
                 id: uuidv4(),
-                title: 'Get job at CERN',
-                description: 'Find projects that interest you. Then submit the application for the Early Career Professionals - University Graduates. Be great at interview. Hopefully get the job.',
+                title: 'Build SAAS',
+                description: 'Research and pick the topic for the SAAS project and then make it awesome!',
                 priority: 'Highest',
                 type: 'Story'
             },
