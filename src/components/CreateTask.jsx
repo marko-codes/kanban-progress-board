@@ -172,7 +172,8 @@ const CreateTask = ({ data, setData, priority, type }) => {
                          shadow-md rounded-r-md
                          hover:bg-gray-300
                          "
-                                onClick={() => {
+                                onClick={(e) => {
+                                    e.preventDefault();
                                     setOpen(false); 
                                     setTaskPriority('Medium');
                                     setTaskType('Task');       
