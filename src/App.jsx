@@ -25,6 +25,9 @@ function App() {
                 <h1 className=' p-5 text-4xl text-black'>
                     Progress Board
                 </h1>
+                <h3 className=' p-5 text-2xl text-black'>
+                    The Kanban board is designed to work on larger screens - tablet, laptop, desktop
+                </h3>
                 <div className='flex flex-col items-start justify-center w-1/2  xl:w-2/5'>
 
                     <Colapsable

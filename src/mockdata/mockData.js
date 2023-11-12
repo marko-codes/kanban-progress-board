@@ -36,6 +36,13 @@ const mockData = [
         tasks: [
             {
                 id: uuidv4(),
+                title: 'Get proficient in Automation Testing',
+                description: 'Gaining a comprehensive understanding of automation testing concepts, frameworks, and best practices.',
+                priority: 'Highest',
+                type: 'Improvement'
+            },
+            {
+                id: uuidv4(),
                 title: 'Fix tooltip message position',
                 description: 'Make the position of tooltip centered with the object that this tooltip describes',
                 priority: 'Low',
